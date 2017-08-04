@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>GP - Suivie Facturation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />>
+</head>
+
+<body ng-app="mainApp">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="dashboard">GP - Suivi Facturation</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a ui-sref="dashboard">Dashboard</a></li>
+        <li><a ui-sref="client">Client</a></li>
+        <li><a ui-sref="devis">Devis</a></li>
+        <li><a ui-sref="facture">Facture</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div ui-view></div>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="lib/angular/angular.js"></script>
+  <script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+  <script type="text/javascript" src="scripts/modules/app.js"></script>
+  <script type="text/javascript" src="scripts/controllers/clientCtrl.js"></script>
+  <script type="text/javascript" src="scripts/controllers/dashboardCtrl.js"></script>
+  <script type="text/javascript" src="scripts/controllers/devisCtrl.js"></script>
+  <script type="text/javascript" src="scripts/controllers/factureCtrl.js"></script>
+</body>
+
+</html>

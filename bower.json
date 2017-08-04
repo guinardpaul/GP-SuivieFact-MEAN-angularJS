@@ -1,0 +1,14 @@
+{
+  "name": "crud-mean-angularjs-app",
+  "version": "1.0.0",
+  "description": "CRUD MEAN Stack angularjs app",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "angular": "*",
+    "angular-ui-router": "*",
+    "angular-mocks": "*",
+    "angular-resource": "*"
+  }
+}
